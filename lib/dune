@@ -1,5 +1,5 @@
 (library
- (name template)
+ (name gathering)
  (libraries base lwt yojson logs dotenv validate)
  (preprocess
   (pps ppx_let validate.ppx_derive_validate)))

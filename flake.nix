@@ -5,7 +5,7 @@
     nixpkgs.follows = "opam-nix/nixpkgs";
   };
   outputs = { self, flake-utils, opam-nix, nixpkgs, }@inputs:
-    let package = "template";
+    let package = "gathering";
     in flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
@@ -34,7 +34,7 @@
           buildInputs = devPackages ++ [ ];
           shellHook = ''
             clear
-            export PS1='\e[1;34mtemplate > \e[0m'
+            export PS1='\e[1;34mgathering > \e[0m'
             alias v="nvim"
           '';
         };
