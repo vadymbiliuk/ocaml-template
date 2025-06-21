@@ -12,9 +12,10 @@ A minimal starter template for building OCaml applications with Lwt and PPX synt
 ## Prerequisites
 
 - nix
+- direnv
 
 OR
 
 - OCaml ≥ 5.0
 - `dune` ≥ 3.0
-- `opam` or Nix for dependency management
+- `opam`
