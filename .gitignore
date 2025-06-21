@@ -1,0 +1,49 @@
+# OCaml build artifacts
+_build/
+*.cm*
+*.o
+*.annot
+*.a
+*.so
+*.exe
+*.bc
+*.opt
+
+# Dune files
+.dune/
+*.install
+
+# Editor/IDE junk
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+# VSCode
+.vscode/
+
+# OPAM
+.opam/
+.opam-switch/
+*.opam.locked
+_opam
+
+# Nix
+result/
+*.drv
+*.out
+*.gcno
+*.gcda
+*.gcov
+
+# Direnv
+.envrc
+.direnv/
+
+# dotenv files
+.env
+.env.local
+.envrc.local
+
+# Logs
+*.log

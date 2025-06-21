@@ -1,0 +1,3 @@
+open Template
+
+let () = main ()
